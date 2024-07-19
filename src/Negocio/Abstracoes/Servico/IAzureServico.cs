@@ -1,11 +1,10 @@
-﻿using Negocio.Entidade.Azure;
+﻿using Negocio.Entidade;
 
 namespace Negocio.Abstracoes.Servico
 {
     public interface IAzureServico
-    {
-        Task<WorkItem> GetAsyncWorkItem(string organization, string project, int id);
-        Task<WorkItem> CreateWorkItemAsync(string organization, string project, WorkItem workitem);
-
+    {        
+        Task<dynamic> GetWorkItensDynamic(string oragnizacao, string projeto, int id);
+        Task<dynamic> PostDataAsync(CreateWorkItem input);
     }
 }

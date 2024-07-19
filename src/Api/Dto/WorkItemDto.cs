@@ -1,6 +1,4 @@
-﻿using Negocio.Entidade.Azure;
-
-namespace Api.Dto
+﻿namespace Api.Dto
 {
     public class WorkItemDto
     {
