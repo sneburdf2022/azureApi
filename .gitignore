@@ -1,0 +1,13 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/azureApi/FileContentIndex
+/.vs/azureApi/v17
+/.vs
+/src/Api/bin/Debug/net8.0
+/src/Api/obj
+/src/Negocio/bin/Debug/net8.0
+/src/Negocio/obj
+/src/Persistencia/bin/Debug/net8.0
+/src/Persistencia/obj
