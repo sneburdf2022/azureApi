@@ -42,6 +42,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+else
+{
+    //outras configurações
+}
 
 app.UseHttpsRedirection();
 
